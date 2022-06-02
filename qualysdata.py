@@ -12,7 +12,7 @@ import xml.etree.ElementTree as ET
 
 
 class QualysAPI:
-    def __init__(self, auth_url, header, file_name, api_endpoint, username, password, auth_params):
+    def __init__(self, auth_url, headers, file_name, api_endpoint, username, password, auth_params):
         self.auth_url = auth_url
         self.file_name = file_name
         self.username = username
